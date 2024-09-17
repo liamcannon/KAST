@@ -1,0 +1,29 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Reflection
+@using System.Text
+@using System.ComponentModel
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.Extensions.DependencyInjection
+@using Microsoft.Extensions.Configuration
+@using Microsoft.Extensions.Localization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.JSInterop
+@using MudBlazor
+@using MediatR
+@using KAST.Domain
+@using KAST.UI.Models
+@using Severity=MudBlazor.Severity
+@using Color = MudBlazor.Color
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@inject IConfiguration Config
+@inject IAuthorizationService AuthService
+@inject IJSRuntime JS
+@inject NavigationManager Navigation

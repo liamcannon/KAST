@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
 
-namespace KAST.Data;
+namespace KAST.Domain;
 
 public class ApplicationDbContext : DbContext
 {

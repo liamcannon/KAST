@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>KAST.Domain</RootNamespace>
+    <AssemblyName>KAST.Domain</AssemblyName>
 	  <RollForward>LatestMinor</RollForward>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
